@@ -1,5 +1,7 @@
 package Date_20_07_24;
 
+import java.util.Scanner;
+
 public class lab082
 {
     public static void main(String[] args) {
@@ -17,12 +19,16 @@ public class lab082
 //        }else{
 //
 //        }
+        Scanner sc= new Scanner(System.in);
+        System.out.println("Enter a age, will tell you its allow to Vote or Not:");
+        int age= sc.nextInt();
 
-        int age = 18;
-        if (age > 18) {
-            System.out.println("Allowed to Vote!!");
-        } else {
-            System.out.println("Not allowed!!");
+
+        if (age <= 18) {
+            System.out.println("Not allowed to Vote");
+
+        }else {
+            System.out.println("Allow to Vote");
         }
 
 
