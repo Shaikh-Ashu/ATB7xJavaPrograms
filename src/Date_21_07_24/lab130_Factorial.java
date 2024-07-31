@@ -2,7 +2,7 @@ package Date_21_07_24;
 
 import java.util.Scanner;
 
-public class lab130 {
+public class lab130_Factorial {
     public static void main(String[] args) {
         Scanner sc= new Scanner(System.in);
         System.out.println("Enter a Num, will print a factorial of that number");
